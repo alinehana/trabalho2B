@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Trabalho Extra</title>
+    </head>
+
+    <body>
+        <h1>Calculadora de Pagamento</h1>
+        <label>Preço de Etiqueta:</label>
+        <input type="text" id="precoEtiqueta" name="precoEtiqueta" placeholder="Digite o preço de etiqueta">
+        <br><br>
+    
+        <label>Condição de Pagamento:</label>
+        <select id="condicaoPagamento" name="condicaoPagamento">
+            <option value="a">À vista em dinheiro ou cheque</option>
+            <option value="b">À vista no cartão de crédito</option>
+            <option value="c">Em duas vezes</option>
+            <option value="d">Em duas vezes com juros</option>
+        </select>
+        <br><br>
+    
+        <button id=btCalcularPagamento>Calcular</button>
+    
+        <p id="valorPago"></p>
+    </body>
+    <script src="scripts/script.js"></script>
+</html>

@@ -1,0 +1,44 @@
+body {
+    font-family: arial;
+    background-color:#fff8f8;
+}
+
+button {
+    background-color: salmon;
+    border-radius: 10%;
+    border-color: salmon;
+    color: white;
+}
+
+#div {
+    background-color:#e69c9c;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid salmon;
+}
+
+div {
+    color: #c58282;
+}
+
+.divExercicios {
+    padding: 4%;
+}
+
+#FPI {
+    font-family: arial;
+    padding: 3%;
+    color: white;
+    font-size: 30px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.resultado {
+    text-align: center;
+    font-weight: bold;
+}
